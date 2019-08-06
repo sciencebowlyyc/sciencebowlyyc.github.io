@@ -1,4 +1,4 @@
-- title: Name
+- title: General Knowledge
   name: Name-1
   subtitle: Position
   img: TBD.jpg
@@ -7,7 +7,7 @@
   topic: Topic
   description: More Info
 
-- title: Name
+- title: Physics
   name: Name-2
   subtitle: Position
   img: TBD.jpg
@@ -16,7 +16,7 @@
   topic: Topic
   description: More Info
 
-- title: Name
+- title: Chemistry
   name: Name-3
   subtitle: Position
   img: TBD.jpg
