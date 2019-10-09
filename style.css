@@ -1,0 +1,132 @@
+@media (min-width: 320px) and (max-width: 599px){
+	.selectionBox {
+		background-color: #fefefe;
+		margin: auto;
+		padding: 1em;
+		border: 4px solid #888;
+		width: 85%;
+		max-width: 600px;
+		position: absolute;
+		/* Stay in place */
+		z-index: 1;
+		/* Sit on top */
+		text-align: center;
+		left: 50%;
+		top: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		justify-content: center;
+		align-items: center;
+	}
+	.selectionBox ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		float: center;
+	}
+	.selectionBox ul a {
+		margin-top: 6px;
+		display: inline-block;
+		width: 150px;
+		color: white;
+		background-color: blue;
+		text-align: center;
+		overflow: hidden;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 16px;
+	}
+	.selectionBox li {
+		display: inline-block;
+	}
+	.selectionBox h1 {
+		font-size: 24px;
+	}
+	.selectionBox h2 {
+		font-size: 14px;
+		font-style: italic;
+		color: gray;
+	}
+	.selectionBox p {
+		font-size: 15px;
+		padding: 4px;
+	}
+	body,
+	html {
+		margin: 0;
+		font-family: "Open Sans", Roboto, sans-serif;
+		background: url(https://i.imgur.com/DDeRQbm.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 100%;
+		overflow: hidden;
+	}
+}
+
+@media (min-width:600px) {
+	.selectionBox {
+		background-color: #fefefe;
+		margin: auto;
+		padding: 20px;
+		border: 4px solid #888;
+		width: 80%;
+		max-width: 600px;
+		position: fixed;
+		/* Stay in place */
+		z-index: 1;
+		/* Sit on top */
+		text-align: center;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		height: auto;
+	}
+	.selectionBox ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		float: center;
+	}
+	.selectionBox ul a {
+		display: inline-block;
+		width: 150px;
+		color: white;
+		background-color: blue;
+		text-align: center;
+		overflow: hidden;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	.selectionBox li {
+		display: inline-block;
+	}
+	.selectionBox h1 {
+		font-size: 36px;
+	}
+	.selectionBox h2 {
+		font-size: 16px;
+		font-style: italic;
+		color: gray;
+	}
+	.selectionBox p {
+		font-size: 18px;
+	}
+	body,
+	html {
+		height: 100%;
+		margin: 0;
+		font-family: "Open Sans", Roboto, sans-serif;
+	}
+	.bg {
+		background-image: url("https://i.imgur.com/DDeRQbm.jpg");
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
